@@ -45,7 +45,7 @@ h3 {
 }
 
 .italic {
-  font-family: "Arial - Italic MT", sans-serif;
+  font-family: "Arial MT Italic", Helvetica, sans-serif;
 }
 
 .line {
@@ -65,7 +65,7 @@ h3 {
 }
 
 .new-roman {
-  font-family: "Times New Roman PSMT", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .shadow {
