@@ -45,7 +45,7 @@ h3 {
 }
 
 .italic {
-  font-family: "Arial - Italic MT", cursive;
+  font-style: italic;
 }
 
 .line {
