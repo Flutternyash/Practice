@@ -77,11 +77,9 @@ h3 {
 /*----------------------------------*/
 
 .example-block {
+  max-width: 500px;
   border: 1px solid #000000;
-  margin: 100px 200px 150px 300px;
 }
 
 .example-string {
-  border: 1px solid #000000;
-  padding: 100px 200px 150px 300px;
 }
