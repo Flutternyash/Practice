@@ -1,10 +1,4 @@
 
-span {
-  background-color: #FFFF00;
-}
-
-/*---------------------------*/
-
 body{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #333333;
@@ -72,14 +66,4 @@ h3 {
 
 .shadow {
   text-shadow: 1px 1px 1px #000000;
-}
-
-/*----------------------------------*/
-
-.example-block {
-  max-width: 500px;
-  border: 1px solid #000000;
-}
-
-.example-string {
 }
