@@ -1,0 +1,50 @@
+
+body {
+  color: #000000;
+  line-height: 1.79;
+}
+
+.block00 {
+  margin: 0 535px 33px 2px;
+}
+
+.block01 {
+  display: block;
+  margin: 33px 10px 2px 1px;
+}
+
+.block03 {
+  display: block;
+  margin: 2px 94px 32px 0;
+}
+
+.block04 {
+  margin: 32px 0 34px 3px;
+  padding: 0 0 30px 0;
+}
+
+.block05 {
+  display: inline-block;
+  margin: 34px 41px 35px 3px;
+}
+
+.block06 {
+  display: inline-block;
+  margin: 34px 41px 35px 10px;
+}
+
+.block07 {
+  padding: 0 50px;
+  margin: 35px 42px 37px 2px;
+}
+
+.block08 {
+  padding: 0 50px 0 0;
+  margin: 35px 121px 37px 41px;
+}
+
+.block09 {
+  padding: 50px 0;
+  display: block;
+  margin: 37px 202px 0 2px;
+}
