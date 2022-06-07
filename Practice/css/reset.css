@@ -85,9 +85,9 @@ h1, h2, h3, h4, h5, h6 {      /*Теги заголовков*/
 html, body {                          /*Основные теги верстки*/
   height: 100%;                       /*Высота*/
   width: 100%;                        /*Ширина*/
-  font-size: 100%;                    /*Размер шрифта*/
-  line-height: 1;                     /*Высота строки*/
+  line-height: 1;                  /*Высота строки*/
   font-size: 14px;                    /*Размер шрифта*/
   -moz-text-size-adjust: 100%;        /**/
   -webkit-text-size-adjust: 100%;     /**/
+  font-family: Arial, sans-serif;
 }
