@@ -87,6 +87,6 @@ html, body {                          /*Основные теги верстки
   width: 100%;                        /*Ширина*/
   line-height: 1;                  /*Высота строки*/
   font-size: 14px;                    /*Размер шрифта*/
-  -moz-text-size-adjust: 100%;        /**/
-  -webkit-text-size-adjust: 100%;     /**/
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
