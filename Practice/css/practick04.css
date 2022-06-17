@@ -1,7 +1,11 @@
 .example-block01 {
-}
+  font-size: 20px;
+  margin: 0 0 15px 0;
+  border: 5px solid #000;
+ }
 
 .example-string01 {
+  font-size: 20px;
 }
 
 .example-image01 {
