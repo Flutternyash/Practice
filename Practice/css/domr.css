@@ -1,0 +1,148 @@
+
+body {
+  margin: 0 auto;
+  font-family: Times, serif;
+  background-color: #e8e8e8;
+}
+
+/*---------------Текстовое оглавление--------------------------*/
+
+.get-main__container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1190px;
+}
+
+.get-main__content {
+  background-image: url("../img/copy.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.get-main__block-text {
+}
+
+.block-text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.block-text__title {
+  margin: 62px 0 0 0;
+  color: rgba(39, 61, 70, 0.6);
+  line-height: 2.86;
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  opacity: 0.6;
+  font-family: Arial, sans-serif;
+}
+
+.block-text__text {
+  margin: 0 0 77px 0;
+  font-family: Times, serif;
+  font-size: 36px;
+  line-height: 1.39;
+  color: #273d46;
+}
+
+/*------------------Фон-фото--------------------*/
+
+.get-main__photo {
+  background-color: #e8e8e8;
+  box-shadow: 0 15px 65px 0 rgba(15, 16, 16, 0.15);
+  margin: 0 auto;
+  width: 841px;
+  height: 561px;
+  background-image: url("../img/light-man.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 821px 541px;
+}
+
+/*----------------Информативный блок-----------------------*/
+
+.get-main__block-info {
+  width: 736px;
+  height: 257px;
+  margin: 97px auto;
+}
+
+.block-info {
+  opacity: 0.8;
+  font-size: 24px;
+  line-height: 1.67;
+  text-align: left;
+  color: rgba(39, 61, 70, 0.8);
+  font-weight: 400;
+}
+
+.block-info__text-one {
+  margin: 0 0 50px 0;
+}
+
+.block-info__text-two {
+}
+
+/*---------------Блок списка--------------------*/
+
+.get-main__block-list {
+  margin: 45px auto;
+}
+
+.block-list {
+}
+
+.block-list li {
+  padding: 0 0 0 30px;
+  background: url("../img/icon.png") left no-repeat;
+}
+
+.block-list__content {
+  font-family: Arial, serif;
+  line-height: 1.8;
+  font-size: 20px;
+  text-align: left;
+}
+
+.block-list__text00 {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  color: #273d46;
+}
+
+.block-list__text01 {
+  color: #80b7b3;
+}
+
+.block-list__text02 {
+  font-weight: 600;
+}
+
+.block-list__text03 {
+  text-decoration: line-through;
+  color: rgba(39, 61, 70, 0.3);
+}
+
+/*--------------Блок кнопки------------------*/
+
+.get-main__button {
+  border-radius: 30px;
+  text-align: center;
+  width: 199px;
+  height: 44px;
+  background-color: rgba(128, 183, 179, 10);
+  box-shadow: 0 10px 40px 5px rgba(128, 183, 179, 0.54);
+}
+
+.button {
+  background-image: url("../img/icon00.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 0 30px 0 0;
+  font-family: Arial, serif;
+  font-size: 14px;
+  line-height: 2.86;
+  letter-spacing: 2.8px;
+  text-align: left;
+  color: #fff;
+}
