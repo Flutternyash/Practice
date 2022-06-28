@@ -1,37 +1,32 @@
 
 body {
-  margin: 0 auto;
   font-family: Times, serif;
-  background-color: #e8e8e8;
+  background:#e8e8e8 url('../img/copy.png') 50% 80px no-repeat;
 }
 
 /*---------------Текстовое оглавление--------------------------*/
 
 .get-main__container {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 1190px;
 }
 
 .get-main__content {
-  background-image: url("../img/copy.png");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  padding: 125px 0 137px 0;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 1190px;
+  max-width: 841px;
 }
 
 .get-main__block-text {
 }
 
 .block-text {
-  text-align: center;
-  margin: 0 auto;
+  margin: 0 0 50px 0;
 }
 
 .block-text__title {
-  margin: 62px 0 0 0;
+
   color: rgba(39, 61, 70, 0.6);
-  line-height: 2.86;
   letter-spacing: 2.8px;
   font-size: 14px;
   opacity: 0.6;
@@ -39,8 +34,7 @@ body {
 }
 
 .block-text__text {
-  margin: 0 0 77px 0;
-  font-family: Times, serif;
+
   font-size: 36px;
   line-height: 1.39;
   color: #273d46;
@@ -65,7 +59,7 @@ body {
 .get-main__block-info {
   width: 736px;
   height: 257px;
-  margin: 97px auto;
+  margin: 50px auto;
 }
 
 .block-info {
@@ -106,16 +100,18 @@ body {
 }
 
 .block-list__text00 {
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-  color: #273d46;
+  text-shadow: 0 2px 0 rgba(2, 1, 1, 0.3);
+  color: #000000;
 }
 
 .block-list__text01 {
+  font-style: italic;
   color: #80b7b3;
 }
 
 .block-list__text02 {
   font-weight: 600;
+  color: #000000;
 }
 
 .block-list__text03 {
@@ -125,24 +121,38 @@ body {
 
 /*--------------Блок кнопки------------------*/
 
-.get-main__button {
-  border-radius: 30px;
-  text-align: center;
-  width: 199px;
-  height: 44px;
-  background-color: rgba(128, 183, 179, 10);
-  box-shadow: 0 10px 40px 5px rgba(128, 183, 179, 0.54);
+
+.get-main__button:hover {
+  background-color: #068c91;
 }
 
-.button {
+.get-main__button:active {
+  background-color: rgba(128, 183, 179, 10);
+  box-shadow: 0 10px 40px 5px rgba(128, 183, 179, 0.54);
+  position: relative;
+  top: 3px;
+
+}
+
+.get-main__button {
+  display: inline-block;
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgba(128, 183, 179, 10);
+  box-shadow: 0 10px 40px 5px rgba(128, 183, 179, 0.54);
+padding: 10px 30px;
   background-image: url("../img/icon00.png");
-  background-position: right;
+  background-position: 85%;
   background-repeat: no-repeat;
-  padding: 0 30px 0 0;
+
   font-family: Arial, serif;
   font-size: 14px;
   line-height: 2.86;
   letter-spacing: 2.8px;
-  text-align: left;
+
   color: #fff;
+}
+
+.get-main__costeli {
+  padding: 50px 0 0 0;
 }
