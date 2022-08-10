@@ -47,7 +47,7 @@ button {                /**/
   cursor: pointer;      /**/
 }
 
-/**/
+/*Убирает отступы вокруг фокуса и кнопок в Мазиле*/
 button::-moz-focus-inner {      /**/
   padding: 0;                   /**/
   border: 0;                    /**/
