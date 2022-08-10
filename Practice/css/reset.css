@@ -37,7 +37,7 @@ input, button, textarea {     /*Некоторые теги форм*/
   font-family: inherit;       /*Семейство шрифта/наследовать*/
 }
 
-/**/
+/*Убирает крестик в окне формы в браузере*/
 input::-ms-clear {      /**/
   display: none;        /**/
 }
