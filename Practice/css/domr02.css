@@ -83,7 +83,7 @@ body {
 
 .content00-button:active {
   background-color: #818181;
-  box-shadow: 0 0 0 0 rgba(128, 183, 179, 0.54);
+  box-shadow: none;
 }
 
 .content00-button span{
